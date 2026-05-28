@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSkills Quiz</title>
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <div id="main" >
+            <h1 id="msg">📝Test your Web Skills Here..!</h1>
+            <p class="m">Think you know HTML, CSS & JavaScript?</p>
+            <p class="m">Let's put your knowledge to the test!</p>
+            <button id="start">Start Quiz</button>
+            <p id="m1">⏳10 sec per question</p>
+            <p id="m2">Made By Aishwarya</p>
+        </div>
+        <div id="quesBox" style="display:none">
+            <div id="prog">
+                Question <span id="qno"></span> of 10
+            </div>
+            <div id="ques">Ques is this</div>
+            <div class="options">
+                <div class="opt">Option A</div>
+                <div class="opt">Option B</div>
+                <div class="opt">Option C</div>
+                <div class="opt">Option D</div>
+            </div>
+            <div id="nav">
+                <button id="prev">Previous</button>
+                <button id="submit">Submit</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+        <div id="resultBox" style="display:none;">
+            <h1>Quiz Finished..🎉</h1>
+            <p id="finalScore"></p>
+            <button id="restart">Restart Quiz</button>
+        </div>
+        <script src="quiz.js"></script>
+    </body>
+</html>
